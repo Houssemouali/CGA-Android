@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.cga.AddContract">
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="123dp"
+        android:ems="10"
+        android:hint="Start Date"
+        android:inputType="date"
+        android:backgroundTint="#40A497"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="End Date"
+        android:inputType="date"
+        android:backgroundTint="#40A497"
+        android:layout_below="@+id/startDate"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <EditText
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Cost"
+        android:inputType="number"
+        android:enabled="false"
+        android:backgroundTint="#40A497"
+        android:layout_below="@+id/endDate"
+        android:layout_alignRight="@+id/endDate"
+        android:layout_alignEnd="@+id/endDate"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:text="Send"
+        android:layout_below="@+id/cost"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:background="@color/mycolor"
+        android:textColor="@android:color/background_light"
+        />
+
+    <Button
+        android:id="@+id/calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cost"
+        android:layout_alignBaseline="@+id/btnPost"
+        android:layout_alignBottom="@+id/btnPost"
+        android:layout_alignLeft="@+id/startDate"
+        android:layout_alignStart="@+id/startDate"
+        android:background="@color/mycolor"
+        android:textColor="@android:color/background_light"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/contract"
+        android:layout_marginBottom="74dp"
+        android:layout_alignBottom="@+id/startDate"
+        android:layout_toRightOf="@+id/startDate"
+        android:layout_toEndOf="@+id/startDate"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp" />
+
+</RelativeLayout>

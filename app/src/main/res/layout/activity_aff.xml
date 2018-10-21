@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.najah.test.AffActivity"
+    android:background="@drawable/bg1"
+    android:weightSum="1"
+    android:layout_marginTop="100dp">
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="30dp"
+        android:id="@+id/nomtv"
+        android:text="ok"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="clip_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+    <TextView
+
+        android:layout_width="277dp"
+        android:layout_height="30dp"
+        android:id="@+id/adressetv"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:text="ok"
+        android:gravity="clip_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="30dp"
+        android:id="@+id/emailtv"
+        android:text="aaaaaa"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="clip_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="30dp"
+        android:id="@+id/teltv"
+        android:text="aaaaaaaaa"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="clip_horizontal"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+    />
+    <Button
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+        android:id="@+id/delete"
+        android:background="@color/transparent"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="330dp"
+       />
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.cgamobile.UpdateActivity">
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:layout_editor_absoluteX="3dp">
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/back"
+            />
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="75dp"
+            android:paddingLeft="20dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wordingTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Wording" />
+
+            <EditText
+                android:id="@+id/wordingU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteX="-107dp"
+                tools:layout_editor_absoluteY="-45dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="75dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/costTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Price" />
+
+            <EditText
+                android:id="@+id/costU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteX="-107dp"
+                tools:layout_editor_absoluteY="-45dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="75dp"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/desTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Description" />
+
+            <EditText
+                android:id="@+id/desU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteX="-107dp"
+                tools:layout_editor_absoluteY="-45dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00a7f5"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="130dp"
+            android:text="Update" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

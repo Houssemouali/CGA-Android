@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#d1d1d1"
+    tools:context="com.example.ahmed.cgamobile.AddPolicyActivity">
+
+   <LinearLayout
+
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       tools:layout_editor_absoluteY="0dp"
+       tools:layout_editor_absoluteX="8dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#00a7f5"
+           android:orientation="horizontal"
+           android:paddingLeft="20dp"
+           android:weightSum="1">
+
+           <Button
+               android:id="@+id/btnAddPol"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="0dp"
+               android:textColor="#ffffff"
+               android:background="#00a7f5"
+               android:text="Add Policy" />
+
+           <Button
+               android:id="@+id/btnGetPol"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="#00a7f5"
+               android:textColor="#ffffff"
+               android:text="List Policy" />
+           <Button
+               android:id="@+id/btnGetClient"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="#00a7f5"
+               android:textColor="#ffffff"
+               android:text="Client"
+                />
+
+       </LinearLayout>
+
+       <ListView
+          android:id="@+id/ListPolicy"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:dividerHeight="10dp"
+          android:divider="#d1d1d1">
+
+      </ListView>
+
+   </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
